@@ -2,7 +2,7 @@
 
 Python script based on Instaloader library used to download comments from Instagram posts.
 
-# Features
+## Features
 - Delay between requests to avoid Instagram block.
     - From 1.5s to 4s between comments;
     - From 1.5 to 3s between replies;
@@ -16,13 +16,13 @@ Python script based on Instaloader library used to download comments from Instag
     - CSV file contains post shortcode, comment ID, reply flag, parent ID (if it is a reply), comment date, username, comment text and likes. 
 
 
-# Requisites
+## Requisites
 - Python 3+
 - Instaloader
 - dotenv
 - pandas
 
-# Installation (Linux)
+## Installation (Linux)
 First of all, you need to [install Python](https://wiki.python.org/moin/BeginnersGuide/Download).
 
 Download the dumpygram code or clone this repository using the following command:
@@ -32,7 +32,7 @@ git clone https://github.com/lucasltarga/dumpygram.git
 
 Navigate to the downloaded dumpygram folder before running the next commands.
 
-## Using virtual environments
+### Using virtual environments
 Virtual environments are important to avoid version conflicts between different projects and respective installed libraries.
 
 **1. Create a virtual environment**
@@ -45,7 +45,7 @@ python -m venv venv
 source ./venv/bin/activate
 ```
 
-## Installing the dependencies
+### Installing the dependencies
 **1. Run this command to install the dependencies**
 ```
 pip install instaloader dotenv pandas
